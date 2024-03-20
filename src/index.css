@@ -181,3 +181,22 @@ header h1 {
   background-color: #0d4a6b;
   border: solid 1px #0a374f;
 }
+
+@media (max-width: 475px) {
+  .grocery-list {
+    width: 100%;
+  }
+  .input-line {
+    white-space: nowrap;
+  }
+  .btn-input {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 388px) {
+  .btn-input {
+    font-size: 10px;
+    font-weight: normal;
+  }
+}
